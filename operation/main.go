@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// assign variables
 	num1 := 10
 	num2 := 5
 
