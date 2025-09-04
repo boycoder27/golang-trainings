@@ -23,6 +23,6 @@ func main() {
 	}
 
 	for _, book := range books {
-		fmt.Println(book)
+		fmt.Printf("The book name is %s, The author is %s , The Year Published is %d\n", book.Name, book.Author, book.YearPublished)
 	}
 }
