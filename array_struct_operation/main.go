@@ -19,7 +19,39 @@ func main() {
 			Type:   "Credit",
 			Amount: 5000,
 		},
+		{
+			Type:   "Debit",
+			Amount: 1000,
+		},
+		{
+			Type:   "Credit",
+			Amount: 2000,
+		},
+		{
+			Type:   "Debit",
+			Amount: 3000,
+		},
+		{
+			Type:   "Credit",
+			Amount: 4000,
+		},
+		{
+			Type:   "Debit",
+			Amount: 5000,
+		},
+		{
+			Type:   "Credit",
+			Amount: 1000,
+		},
 	}
 
-	fmt.Println("Balance is ", balance)
+	for _, transaction := range transactions {
+		if transaction.Type == "Debit" {
+			balance -= transaction.Amount
+		} else if transaction.Type == "Credit" {
+			balance += transaction.Amount
+		}
+	}
+
+	fmt.Printf("The Balance is %d\n", balance)
 }
