@@ -35,6 +35,7 @@ func main() {
 		Science: 79,
 	}
 	Average3 := getAverageGrade(student3.Math, student3.English, student3.Science)
+
 	fmt.Println(Average3)
 
 }

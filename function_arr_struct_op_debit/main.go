@@ -58,8 +58,8 @@ func main() {
 }
 
 //blueprint or Plan
-func debit(balance int, amount int) int {
-	diff := balance - amount
+func debit(balance int, Amount int) int {
+	diff := balance - Amount
 
 	return diff
 }
