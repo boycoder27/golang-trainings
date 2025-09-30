@@ -13,3 +13,6 @@ func main() {
 
 	fmt.Printf("The Total numbers is %d\n", totalNum)
 }
+
+// answer:
+// The Total numbers is 150

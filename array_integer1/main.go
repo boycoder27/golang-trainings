@@ -15,3 +15,10 @@ func main() {
 	}
 
 }
+
+// answer:
+// The Grade is 85 Passed
+// The Grade is 74 Failed
+// The Grade is 72 Failed
+// The Grade is 88 Passed
+// The Grade is 90 Passed

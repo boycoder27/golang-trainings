@@ -19,3 +19,6 @@ func main() {
 		fmt.Printf("%s was not found.\n", search)
 	}
 }
+
+// answer:
+// boy was not found.
