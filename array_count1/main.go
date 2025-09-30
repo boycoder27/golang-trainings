@@ -9,3 +9,10 @@ func main() {
 		fmt.Println(count, " - ", name)
 	}
 }
+
+//answer:
+// 0  -  Jose
+// 1  -  wally
+// 2  -  paolo
+
+// Note: The count will show how many strings are in the array.
