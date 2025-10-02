@@ -15,6 +15,6 @@ func main() {
 }
 
 // answer:
-// Name is  James
-// Name is  Kobe
-// Name is  Pedro
+// Name is James
+// Name is Kobe
+// Name is Pedro

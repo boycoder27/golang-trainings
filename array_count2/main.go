@@ -11,3 +11,10 @@ func main() {
 	}
 
 }
+
+// answer:
+// Kobe Bryant
+// Lebron James
+// Stephen Curry
+// Jordan Clarkson
+// Klay Thompson
