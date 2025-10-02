@@ -64,3 +64,12 @@ func main() {
 	fmt.Printf("Change : %d\n", change)
 
 }
+
+// answer:
+// Item: Burger, Quantity: 3
+// Bill: 150
+// Item: Coke, Quantity: 4
+// Bill: 100
+// Total Cost : 250
+// Bill Amount : 1000
+// Change : 750

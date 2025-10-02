@@ -62,3 +62,9 @@ func getAverage(items []int) int {
 	return result
 
 }
+
+// answer:
+// Bea Alonzo 89
+// Lyza Soberano 92
+// Kim Chui 88
+// Overall Average is 89

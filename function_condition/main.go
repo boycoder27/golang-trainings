@@ -18,3 +18,6 @@ func checkNumber(num1 int) string {
 		return "Negative"
 	}
 }
+
+// answer:
+// Negative
