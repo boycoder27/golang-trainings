@@ -55,3 +55,6 @@ func main() {
 
 	fmt.Printf("The Balance is %d\n", balance)
 }
+
+// answer:
+// The Balance is 11000
