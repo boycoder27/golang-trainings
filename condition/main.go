@@ -11,3 +11,6 @@ func main() {
 		fmt.Println("Negative")
 	}
 }
+
+// answer:
+// Positive

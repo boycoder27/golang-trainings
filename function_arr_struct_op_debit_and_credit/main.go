@@ -70,3 +70,6 @@ func credit(balance int, amount int) int {
 
 	return sum
 }
+
+// answer:
+// 11000

@@ -11,3 +11,6 @@ func main() {
 
 	fmt.Printf(msg, name, age, address)
 }
+
+// answer:
+// My name is Juan, I am 25 and I live in Quezon City

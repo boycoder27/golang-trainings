@@ -17,3 +17,6 @@ func main() {
 		fmt.Println("Adult")
 	}
 }
+
+// answer:
+// Adult
