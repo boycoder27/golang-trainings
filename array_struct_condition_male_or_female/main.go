@@ -40,3 +40,10 @@ func main() {
 
 	}
 }
+
+// answer:
+// Hi Maam Marie welcome
+// Hi Sir Richard welcome
+// Hi Sir Dingdong welcome
+// Hi Maam Rose welcome
+// Hi Maam Carla welcome
