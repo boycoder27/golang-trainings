@@ -21,3 +21,6 @@ func searchName(search string, names []string) bool {
 
 	return searchFound
 }
+
+// answer:
+// true

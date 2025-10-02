@@ -26,3 +26,6 @@ func getAge(age int) string {
 	}
 
 }
+
+// answer:
+// Adult

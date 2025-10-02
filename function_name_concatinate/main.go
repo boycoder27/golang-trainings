@@ -15,3 +15,6 @@ func formatName(f string, l string) string {
 	full := f + " " + l
 	return full
 }
+
+// answer:
+// Juan Dela Cruz
