@@ -21,3 +21,6 @@ func main() {
 	}
 
 }
+
+// answer:
+// No decimal Value to display.

@@ -45,3 +45,8 @@ func getAverageGrade(Math int, English int, Science int) int {
 
 	return total
 }
+
+// answer:
+// 90
+// 87
+// 85

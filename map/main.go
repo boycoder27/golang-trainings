@@ -54,3 +54,10 @@ func main() {
 	fmt.Printf(msg, 4, player4["firstName"], player4["lastName"], player4["team"])
 	fmt.Printf(msg, 5, player5["firstName"], player5["lastName"], player5["team"])
 }
+
+// answer:
+// Player 1 is Lebron James from Lakers
+// Player 2 is Kobe Bryant from Lakers
+// Player 3 is Stephen Curry from GSW
+// Player 4 is James Harden from Clippers
+// Player 5 is Jordan Clarkson from Utah
