@@ -34,3 +34,9 @@ func main() {
 	totalSalary := employee1.Salary + employee2.Salary + employee3.Salary
 	fmt.Printf("The Total Salary is %d\n", totalSalary)
 }
+
+// answer:
+// The Employee name is Pedro, The position is HR and the salary is 20000
+// The Employee name is Juan, The position is IT Manager and the salary is 55000
+// The Employee name is Hanzel, The position is Marketing and the salary is 35000
+// The Total Salary is 110000

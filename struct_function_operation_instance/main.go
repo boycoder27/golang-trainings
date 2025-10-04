@@ -48,3 +48,9 @@ func (m Math) Compute() int {
 	}
 	return answer
 }
+
+// answer:
+// Sum is: 15
+// Diff is: 20
+// Multiply is: 9
+// Division is: 10

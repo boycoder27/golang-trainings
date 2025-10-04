@@ -44,3 +44,9 @@ func main() {
 	fmt.Printf(msg, 4, student4["firstName"], student4["lastName"], student4["age"], student4["Grade level"], student4["Section"])
 
 }
+
+// answer:
+// Student 1 is Jose Manalo at age of 20 he/she is a Grade 12 student from Mars section.
+// Student 2 is Wally Bayola at age of 18 he/she is a Grade 11 student from Pluto section.
+// Student 3 is Paolo Ballesteros at age of 15 he/she is a Grade 9 student from Venus section.
+// Student 4 is Maine Mendoza at age of 13 he/she is a Grade 6 student from Jupiter section.

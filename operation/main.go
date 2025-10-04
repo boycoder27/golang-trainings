@@ -19,3 +19,9 @@ func main() {
 	fmt.Printf("The product is %d\n", product)
 	fmt.Printf("The quotient is %d\n", quotient)
 }
+
+// answer:
+// The sum is 15
+// The dif is 5
+// The product is 50
+// The quotient is 2
