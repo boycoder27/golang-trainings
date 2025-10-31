@@ -6,12 +6,12 @@ func main() {
 	firstName := "Juan"
 	lastName := "Dela Cruz"
 
-	fullName := formatName(firstName, lastName)
+	fullName := getFormatName(firstName, lastName)
 
 	fmt.Println(fullName)
 }
 
-func formatName(f string, l string) string {
+func getFormatName(f string, l string) string {
 	full := f + " " + l
 	return full
 }

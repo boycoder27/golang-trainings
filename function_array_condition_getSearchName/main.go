@@ -6,11 +6,11 @@ func main() {
 	names := []string{"Josh", "Carl", "James", "Bryan"}
 	search := "Josh"
 
-	result := searchName(search, names)
+	result := getSearchName(search, names)
 	fmt.Println(result)
 }
 
-func searchName(search string, names []string) bool {
+func getSearchName(search string, names []string) bool {
 	searchFound := false
 
 	for _, name := range names {

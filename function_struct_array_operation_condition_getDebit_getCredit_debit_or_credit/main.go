@@ -47,9 +47,9 @@ func main() {
 
 	for _, transaction := range transactions {
 		if transaction.Type == "Debit" {
-			balance = debit(balance, transaction.Amount)
+			balance = getDebit(balance, transaction.Amount)
 		} else if transaction.Type == "Credit" {
-			balance = credit(balance, transaction.Amount)
+			balance = getCredit(balance, transaction.Amount)
 		}
 	}
 
@@ -58,14 +58,14 @@ func main() {
 }
 
 //blueprint or Plan
-func debit(balance int, Amount int) int {
+func getDebit(balance int, Amount int) int {
 	diff := balance - Amount
 
 	return diff
 }
 
 //blueprint or Plan
-func credit(balance int, amount int) int {
+func getCredit(balance int, amount int) int {
 	sum := balance + amount
 
 	return sum

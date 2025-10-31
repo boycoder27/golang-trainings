@@ -4,12 +4,12 @@ import "fmt"
 
 func main() {
 	num1 := -3
-	result := checkNumber(num1)
+	result := getCheckNumber(num1)
 
 	fmt.Println(result)
 }
 
-func checkNumber(num1 int) string {
+func getCheckNumber(num1 int) string {
 	result := num1
 
 	if result > 0 {
